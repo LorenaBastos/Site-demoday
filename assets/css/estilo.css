@@ -1,5 +1,5 @@
 .body{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'nunito', sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -10,18 +10,15 @@
   
 }
 .menu{
-  width: 1120px;
+  width: 1132px;
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: flex-end;
-  padding: 10px;
-  padding-bottom: 0px;
-  position: relative;
-  padding-left: 0px;
-  margin-top: -44px;
-  padding-right: 54px;
-  
+  padding: 11px;
+  padding-bottom: 2px;
+  padding-left: 35px;
+  margin-top: -46px;
 }
 
 .menu li, ul{
@@ -30,7 +27,6 @@
   justify-content: space-around;
   align-items: flex-end;
   margin-left: 25px;
-  margin-top: 45px; 
   font-size: 19px;
 }
 
@@ -39,6 +35,14 @@
   padding-left: 6px;
   margin-top: 33px;
   border-radius: 25px;
+}
+label{
+  font-family: 'nunito', sans-serif;
+}
+
+input {
+  padding-left: 23px;
+  border-radius: 5px;
 }
 .marca{
   margin-top: 21px;
@@ -50,9 +54,7 @@
   /* padding-left: 44px; */
   font-weight: normal;
 }
-.marca h1{
-  
-}
+
 
 
 .menu a{
@@ -69,26 +71,25 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: -8px;
+  margin: -38px;
 }
 .titulo-principal {
-  font-family: 'Amaranth', sans-serif;
-  padding-top: 190px;
+  
+  padding-top: 136px;
   text-align: left;
-  font-size: 25px;
+  font-size: 48px;
   color: #ffffff;
-  text-shadow: 0.1em 0.1em 0.2em black;
   text-align: justify;
   text-align: center;
-  padding-right: 590px;
+  padding-right: 585px;
 }
-main p{
-  font-family: 'nunito', sans-serif;
-  font-size: 21px;
+section p{
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 17px;
   color: #ffffff;
   text-align: justify;
   text-align: center;
-  padding-right: 581px;
+  padding-right: 527px;
 }
 
 
@@ -104,14 +105,14 @@ main p{
 }
 .estacoes{    
   color: white;   
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'nunito', sans-serif;
   font-size: 25px;
   text-align: center; 
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 .titulo{
   color: white;    
-  font-family: 'Archivo Narrow', sans-serif;    
+  font-family: 'nunito', sans-serif;    
   font-size: 40px;
   text-align: center;
   text-shadow: 0.1em 0.1em 0.2em black;
@@ -127,7 +128,7 @@ footer{
 }
 
 .icones{
-  padding-left: 124px;
+  padding-left: 103px;
   color: black;
   font-size: 27px;
 }
@@ -137,7 +138,8 @@ footer{
 }
 
 .contato{
-  margin-top: -102px;
+  margin-top: -155px;
+  padding-right: 82px;
   float: right;
 }
 
